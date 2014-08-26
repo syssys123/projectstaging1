@@ -1,0 +1,2 @@
+class RailshelloworldController < ApplicationController
+end

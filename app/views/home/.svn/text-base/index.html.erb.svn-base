@@ -1,0 +1,26 @@
+<h1>Mysql On Rails</h1>
+<h2>Insert into table</h2>
+<% form_tag({:controller => "home", :action => "set"}, :method => "post") do %>
+<%= label_tag(:message, 'Please input 2 value separated with symbol ":"like this "name:nation" to store:') %>
+<%= text_field_tag(:message) %>
+<%= select_tag(:host, options_from_collection_for_select(@hosts, 'hostname', 'hostname'),:multiple => false) %>
+<%= submit_tag("Store") %>
+<% end %>
+
+<% if flash[:store] %>
+<p>
+	store a message!
+</p>
+<% end %> <h2>Get the value</h2>
+<% form_tag({:controller => "home", :action => "get"}, :method => "post") do %>
+<%= label_tag(:message, "Just input the value your first input above to get the second one:") %>
+<%= text_field_tag(:message) %>
+<%= select_tag(:host, options_from_collection_for_select(@hosts, 'hostname', 'hostname'),:multiple => false) %>
+<%= submit_tag("Get") %>
+<% end %>
+
+<% if flash[:got] %>
+<p>
+	Got message: <%= h(flash[:got]) %>
+</p>
+<% end %> 
