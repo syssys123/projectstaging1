@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/SQE-part/!svn/ver/513/projects/CloudPi-WebPaaS-RestAPI-Test/example/rails4mysql2/db
+END
+development.sqlite3
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/SQE-part/!svn/ver/513/projects/CloudPi-WebPaaS-RestAPI-Test/example/rails4mysql2/db/development.sqlite3
+END
+seeds.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SQE-part/!svn/ver/513/projects/CloudPi-WebPaaS-RestAPI-Test/example/rails4mysql2/db/seeds.rb
+END

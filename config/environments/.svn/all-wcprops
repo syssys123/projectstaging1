@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SQE-part/!svn/ver/513/projects/CloudPi-WebPaaS-RestAPI-Test/example/rails4mysql2/config/environments
+END
+development.rb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/SQE-part/!svn/ver/513/projects/CloudPi-WebPaaS-RestAPI-Test/example/rails4mysql2/config/environments/development.rb
+END
+production.rb
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/SQE-part/!svn/ver/513/projects/CloudPi-WebPaaS-RestAPI-Test/example/rails4mysql2/config/environments/production.rb
+END
+test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/SQE-part/!svn/ver/513/projects/CloudPi-WebPaaS-RestAPI-Test/example/rails4mysql2/config/environments/test.rb
+END
